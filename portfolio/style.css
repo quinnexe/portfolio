@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.test {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px blue;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.test
+ li {
+    margin-right: 30px;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+.navcolone {
+    width: 50%;
+}
+
+.navcoltwo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navcolone h1 {
+    padding-left: 10px;
+}
+
+.navbarcon {
+    padding: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.resumebut {
+    border: none;
+    background-color: rgb(40, 198, 226);
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 4px;
+}
+
+.introcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .intro {
+    margin-top: 5%;
+    margin-left: 20%;
+    text-align: left;
+    font-size: x-large;
+    width: 50%;
+    display: block;
+ }
+
+ .intro p {
+    color: rgb(40, 198, 226);
+ }
+
+ img {
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+ }
+
+ .pic {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 50%;
+    align-items: center;
+ }
+
+.servicesbut {
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(40, 198, 226);
+    height: 50px;
+    width: 130px;
+    border-radius: 35px;
+    margin: 6px;
+}
+
+.worksbut {
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    border-radius: 35px;
+    margin: 6px;
+}
