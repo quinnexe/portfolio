@@ -64,7 +64,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../portfolio/bg.png");
+    background: url('images/bg.png');
 }
 
  .intro {
