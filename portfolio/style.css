@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 234, 235);
 }
 
 .test {
@@ -13,9 +14,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: solid 1px blue;
     width: 100%;
     border-radius: 50px;
+    background-color: white;
 }
 
 .test
@@ -27,6 +28,7 @@ body {
 
 .navcolone {
     width: 50%;
+    margin-left: 2%;
 }
 
 .navcoltwo {
@@ -42,13 +44,13 @@ body {
 
 .navbarcon {
     padding: 50px;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 95px;
+    margin-right: 95px;
 }
 
 .resumebut {
     border: none;
-    background-color: rgb(40, 198, 226);
+    background-color: rgb(20, 76, 160);
     color: white;
     text-decoration: none;
     width: 200px;
@@ -60,11 +62,12 @@ body {
 
 .introcon {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background-image: url("../portfolio/bg.png");
 }
 
  .intro {
-    margin-top: 5%;
     margin-left: 20%;
     text-align: left;
     font-size: x-large;
@@ -73,20 +76,20 @@ body {
  }
 
  .intro p {
-    color: rgb(40, 198, 226);
+    color: rgb(20, 76, 160);
  }
 
- img {
-    width: 375px;
-    height: 375px;
+ .headimg {
+    width: 475px;
+    height: 475px;
+    object-fit: cover;
     border-radius: 50%;
+    border: solid 5px white;
  }
 
- .pic {
+ .headshot {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 20%;
-    margin-top: 5%;
+    margin-right: 10%;
     width: 50%;
     align-items: center;
  }
@@ -95,7 +98,7 @@ body {
     border: none;
     text-decoration: none;
     color: white;
-    background-color: rgb(40, 198, 226);
+    background-color: rgb(20, 76, 160);
     height: 50px;
     width: 130px;
     border-radius: 35px;
@@ -111,4 +114,49 @@ body {
     width: 130px;
     border-radius: 35px;
     margin: 6px;
+}
+
+.aboutmecon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.graduatepic {
+    display: flex;
+    width: 50%;
+    padding-top: 45px;
+    padding-right: 20px;
+    justify-content: end;
+    position: relative;
+}
+
+.graduateimg {
+    width: 350px;
+    height: 600px;
+}
+
+.aboutme {
+    width: 50%;
+    font-size: large;
+    padding-top: 45px;
+    justify-content: start;
+    padding-right: 15%;
+    padding-left: 20px;
+}
+
+.skillsare {
+    color:rgb(20, 76, 160);
+}
+
+.skills {
+    color: black;
+}
+
+.graduatepic button {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
 }
